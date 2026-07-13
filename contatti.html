@@ -3,31 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contatti - Autorimessa Flavia SNC</title>
-    <meta name="description" content="Contatti di Autorimessa Flavia SNC: autorimessa e parcheggio custodito a Torino. Telefono, email, indirizzo, orari e modulo di contatto per informazioni su disponibilità posti auto e abbonamenti.">
-    <meta name="keywords" content="contatti autorimessa Torino, parcheggio custodito, telefono, email, indirizzo, Via Oulx 22">
-    <meta name="author" content="Autorimessa Flavia SNC">
+    <title>Contatti - Autorimessa Flavia</title>
+    <meta name="description" content="Contatti di Autorimessa Flavia: officina meccanica a Torino. Telefono, email, indirizzo, orari e modulo di contatto per preventivi su guasti o tagliandi.">
+    <meta name="keywords" content="officina meccanica Torino, telefono, email, indirizzo, Via Oulx 22, Autorimessa Flavia">
+    <meta name="author" content="Autorimessa Flavia">
     <link rel="canonical" href="https://nicolis-pneumatici.github.io/contatti.html">
     <meta property="og:locale" content="it_IT" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contatti - Autorimessa Flavia SNC" />
-    <meta property="og:description" content="Contatti di Autorimessa Flavia SNC: autorimessa e parcheggio custodito a Torino. Telefono, email, indirizzo, orari e modulo di contatto per informazioni su disponibilità posti auto e abbonamenti." />
+    <meta property="og:title" content="Contatti - Autorimessa Favia" />
+    <meta property="og:description" content="Contatti di Autorimessa Flavia: officina meccanica a Torino. Telefono, email, indirizzo, orari e modulo di contatto per preventivi su guasti o tagliandi." />
     <meta property="og:url" content="https://nicolis-pneumatici.github.io/contatti.html" />
-    <meta property="og:site_name" content="Autorimessa Flavia SNC" />
+    <meta property="og:site_name" content="Autorimessa Favia" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Contatti - Autorimessa Flavia SNC" />
-    <meta name="twitter:description" content="Contatti di Autorimessa Flavia SNC: autorimessa e parcheggio custodito a Torino. Telefono, email, indirizzo, orari e modulo di contatto per informazioni su disponibilità posti auto e abbonamenti." />
+    <meta name="twitter:title" content="Contatti - Autorimessa Favia" />
+    <meta name="twitter:description" content="Contatti di Autorimessa Favia: officina meccanica a Torino. Telefono, email, indirizzo, orari e modulo di contatto per preventivi su guasti o tagliandi." />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiH/Z5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css")
 </head>
 <body>
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Autorimessa Flavia SNC</h1>
+                <h1>Autorimessa Favia</h1>
             </div>
             <nav>
                 <div class="hamburger" id="hamburger">
@@ -46,8 +46,8 @@
 
     <section class="page-header">
         <div class="container">
-            <h1>Informazioni e prenotazioni</h1>
-            <p>Hai bisogno di sapere se ci sono posti liberi o vuoi sottoscrivere un abbonamento? Contattaci subito.</p>
+            <h1>Contatti e preventivi</h1>
+            <p>Hai un guasto da riparare o devi fare un tagliando? Chiedi un preventivo senza impegno.</p>
         </div>
     </section>
 
@@ -86,15 +86,16 @@
                         <i class="fas fa-clock"></i>
                         <div>
                             <h3>Orari di apertura</h3>
-                            <p>Lunedì - Sabato: 06:30 - 12:00 e 14:30 - 01:00</p>
-                            <p>Domenica: 06:30 - 11:30 e 20:00 - 01:00</p>
+                            <p>Lunedì - Venerdì: 08:00 - 12:30 / 14:30 - 19:00</p>
+                            <p>Sabato: 08:30 - 12:30</p>
+                            <p>Domenica: Chiuso</p>
                         </div>
                     </div>
                 </div>
 
                 <!-- Contact Form Column -->
                 <div class="contact-form">
-                    <h2>Richiedi informazioni su posti auto o abbonamenti</h2>
+                    <h2>Richiedi un preventivo per guasto o tagliando</h2>
                     <form id="contactForm" action="#" method="POST">
                         <div class="form-group">
                             <label for="nome">Nome *</label>
@@ -112,20 +113,22 @@
                         </div>
 
                         <div class="form-group">
-                            <label for="richiesta">Richiesta</label>
-                            <select id="richiesta" name="richiesta">
-                                <option value="">Seleziona una richiesta</option>
-                                <option value="disponibilita-posto">Verifica disponibilità posto auto</option>
-                                <option formula="abbonamento-mensile">Abbonamento mensile</option>
-                                <option value="abbonamento-annuale">Abbonamento annuale</option>
-                                <option value="parcheggio-ore">Parcheggio a ore / giornaliero</option>
+                            <label for="servizio">Tipo di intervento</label>
+                            <select id="servizio" name="servizio">
+                                <option value="">Seleziona tipo di intervento</option>
+                                <option value="guasto">Guasto meccanico</option>
+                                <option value="tagliando">Tagliando / Manutenzione</option>
+                                <option value="revisione">Revisione periodica</option>
+                                <option value="diagnosi">Diagnosi computerizzata</option>
+                                <option value="elettrauto">Elettrauto</option>
+                                <option value="altro">]
                                 <option value="altro">Altro</option>
                             </select>
                         </div>
 
                         <div class="form-group">
                             <label for="messaggio">Messaggio *</label>
-                            <textarea id="messaggio" name="messaggio" rows="5" required placeholder="Descrivi cosa ti serve (es. giorno richiesto, veicolo, durata)..."></textarea>
+                            <textarea id="messaggio" name="messaggio" rows="5" required placeholder="Descrivi il problema o il servizio richiesto..."></textarea>
                         </div>
 
                         <button type="submit" class="cta-button">Invia richiesta</button>
@@ -142,7 +145,7 @@
             <h2>Come trovarci</h2>
             <div class="map-container">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.608017087289!2d7.646053215483165!3d45.0703182791029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1s0x478872d0db7c6c4f%3A0x2c8e5b2d7c2a5e2c!2sVia%20Oulx%2022%2C%2010139%20Torino%20TO!5e0!3m2!1sit!2sit!4v1689123456789"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.608017087289!2d7.646053215483165!3d45.0703182791029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478872d0db7c6c4f%3A0x2c8e5b2d7c2a5e2c!2sVia%20Oulx%2022%2C%2010139%20Torino%20TO!5e0!3m2!1sit!2sit!4v1689123456789"
                     width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
@@ -158,11 +161,10 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-info">
-                    <h3>Autorimessa Flavia SNC</h3>
+                    <h3>Autorimessa Favia</h3>
                     <p>Via Oulx 22<br>10139 Torino TO</p>
                     <p>Tel: <a href="tel:0117710719">011 771 0719</a></p>
-                    <p>Email: <a href="mailto:info@autorimessaflavia.it">info@autorimessaflavia.it</a></p>
-                    <p>Orari: Lun-Sab: 06:30-12:00 e 14:30-01:00 | Dom: 06:30-11:30 e 20:00-01:00</p>
+                    <p>Orari: Lun-Ven 08:00-12:30 / 14:30-19:00 | Sab 08:30-12:30 | Dom Chiuso</p>
                 </div>
                 <div class="footer-social">
                     <h3>Seguici</h3>
@@ -174,7 +176,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 Autorimessa Flavia SNC. Tutti i diritti riservati.</p>
+                <p>&copy; 2026 Autorimessa Favia. Tutti i diritti riservati.</p>
             </div>
         </div>
     </footer>
